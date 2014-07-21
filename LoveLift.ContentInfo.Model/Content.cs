@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace LoveLift.ContentInfo.Model
 {
-    public class ContentInfo
+    [Serializable()]
+    public class Content
     {
+        private string contentID;
+
+        public string ContentID
+        {
+            get { return contentID; }
+            set { contentID = value; }
+        }
+
         //文章类型1、文字2、图片3、文字+图片
         private bool contentType;
 
@@ -18,12 +27,12 @@ namespace LoveLift.ContentInfo.Model
         }
 
         //正文
-        private string content;
+        private string txtContent;
 
-        public string Content
+        public string TxtContent
         {
-            get { return content; }
-            set { content = value; }
+            get { return txtContent; }
+            set { txtContent = value; }
         }
 
         //图片地址

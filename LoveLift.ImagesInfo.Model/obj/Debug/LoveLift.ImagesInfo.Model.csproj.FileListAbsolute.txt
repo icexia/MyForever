@@ -2,3 +2,6 @@ E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\bin\Debug\LoveLift.Image
 E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\bin\Debug\LoveLift.ImagesInfo.Model.pdb
 E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\obj\Debug\LoveLift.ImagesInfo.Model.dll
 E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\obj\Debug\LoveLift.ImagesInfo.Model.pdb
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\bin\Debug\LoveLift.ContentInfo.Model.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\bin\Debug\LoveLift.ContentInfo.Model.pdb
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Model\obj\Debug\LoveLift.ImagesInfo.Model.csprojResolveAssemblyReference.cache

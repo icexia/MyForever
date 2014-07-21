@@ -1,5 +1,4 @@
 E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Model\bin\Debug\LoveLift.ContentInfo.Model.dll
 E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Model\bin\Debug\LoveLift.ContentInfo.Model.pdb
-E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Model\obj\Debug\LoveLift.ContentInfo.Model.csprojResolveAssemblyReference.cache
 E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Model\obj\Debug\LoveLift.ContentInfo.Model.dll
 E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Model\obj\Debug\LoveLift.ContentInfo.Model.pdb
