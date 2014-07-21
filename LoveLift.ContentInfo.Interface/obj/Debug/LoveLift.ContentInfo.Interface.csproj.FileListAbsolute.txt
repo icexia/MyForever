@@ -1,0 +1,5 @@
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Interface\bin\Debug\LoveLift.ContentInfo.Interface.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Interface\bin\Debug\LoveLift.ContentInfo.Interface.pdb
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Interface\obj\Debug\LoveLift.ContentInfo.Interface.csprojResolveAssemblyReference.cache
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Interface\obj\Debug\LoveLift.ContentInfo.Interface.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Interface\obj\Debug\LoveLift.ContentInfo.Interface.pdb

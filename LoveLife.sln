@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Test", "0.Test", "{517B0489-1869-4804-A6CB-7FA31E69D257}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.User Interface", "1.User Interface", "{BB7E4AA3-505A-4584-963A-674AEC017071}"
@@ -45,16 +43,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveLift.ImagesInfo", "Love
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveLift.RulerInfo", "LoveLift.RulerInfo", "{589B018D-F896-4BAC-AB7E-0FA03C2A4B62}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveLift.ContentInfo.Model", "LoveLift.ContentInfo.Model", "{851DB6D7-36EA-488B-9D9F-AE29A24DD299}"
-	ProjectSection(SolutionItems) = preProject
-		ContentInfo.cs = ContentInfo.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLift.ContentInfo.Interface", "LoveLift.ContentInfo.Interface\LoveLift.ContentInfo.Interface.csproj", "{28FF8DC1-C5C4-4411-B820-980B4D5532E6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveLift.ContentInfo.Service", "LoveLift.ContentInfo.Service", "{1C76C116-3F50-44C5-ACE8-31445BB0C93C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLift.ContentInfo.Model", "LoveLift.ContentInfo.Model\LoveLift.ContentInfo.Model.csproj", "{4E93E220-A351-4C6B-92D1-32DC64126919}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveLift.ContentInfo.Interface", "LoveLift.ContentInfo.Interface", "{C16E94E1-5B8F-465A-9D02-00B3B8B7885D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLift.ContentInfo.Service", "LoveLift.ContentInfo.Service\LoveLift.ContentInfo.Service.csproj", "{B14AE42E-38E7-4701-B964-82E6F97239BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLift.ImagesInfo.Model", "LoveLift.ImagesInfo.Model\LoveLift.ImagesInfo.Model.csproj", "{291235D5-3029-484B-B80C-AB106A5CA306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLift.ImagesInfo.Interface", "LoveLift.ImagesInfo.Interface\LoveLift.ImagesInfo.Interface.csproj", "{BF8C37BF-8DDD-4AE7-8424-9B15EED56CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLift.ImagesInfo.Service", "LoveLift.ImagesInfo.Service\LoveLift.ImagesInfo.Service.csproj", "{2CF251A2-C554-4D1B-B65B-D9F95D53675B}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FF8DC1-C5C4-4411-B820-980B4D5532E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FF8DC1-C5C4-4411-B820-980B4D5532E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FF8DC1-C5C4-4411-B820-980B4D5532E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FF8DC1-C5C4-4411-B820-980B4D5532E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E93E220-A351-4C6B-92D1-32DC64126919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E93E220-A351-4C6B-92D1-32DC64126919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E93E220-A351-4C6B-92D1-32DC64126919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E93E220-A351-4C6B-92D1-32DC64126919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14AE42E-38E7-4701-B964-82E6F97239BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14AE42E-38E7-4701-B964-82E6F97239BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14AE42E-38E7-4701-B964-82E6F97239BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14AE42E-38E7-4701-B964-82E6F97239BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291235D5-3029-484B-B80C-AB106A5CA306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291235D5-3029-484B-B80C-AB106A5CA306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291235D5-3029-484B-B80C-AB106A5CA306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291235D5-3029-484B-B80C-AB106A5CA306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8C37BF-8DDD-4AE7-8424-9B15EED56CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8C37BF-8DDD-4AE7-8424-9B15EED56CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8C37BF-8DDD-4AE7-8424-9B15EED56CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8C37BF-8DDD-4AE7-8424-9B15EED56CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF251A2-C554-4D1B-B65B-D9F95D53675B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF251A2-C554-4D1B-B65B-D9F95D53675B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF251A2-C554-4D1B-B65B-D9F95D53675B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF251A2-C554-4D1B-B65B-D9F95D53675B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -72,8 +103,11 @@ Global
 		{86894AB1-35EC-4A9A-923E-6AC751943316} = {603A18D3-1FF3-413C-9988-098D0654F419}
 		{C22747A0-CC90-4B2E-B6EF-C1E42448F17B} = {603A18D3-1FF3-413C-9988-098D0654F419}
 		{FC2261B8-A3E8-47AD-AFF2-A96C397AAA05} = {B91651A3-D89B-4E60-9360-87CCA0871E7F}
-		{851DB6D7-36EA-488B-9D9F-AE29A24DD299} = {C67D0B40-329E-4C59-A366-D5907D1CC356}
-		{1C76C116-3F50-44C5-ACE8-31445BB0C93C} = {C67D0B40-329E-4C59-A366-D5907D1CC356}
-		{C16E94E1-5B8F-465A-9D02-00B3B8B7885D} = {C67D0B40-329E-4C59-A366-D5907D1CC356}
+		{28FF8DC1-C5C4-4411-B820-980B4D5532E6} = {C67D0B40-329E-4C59-A366-D5907D1CC356}
+		{4E93E220-A351-4C6B-92D1-32DC64126919} = {C67D0B40-329E-4C59-A366-D5907D1CC356}
+		{B14AE42E-38E7-4701-B964-82E6F97239BE} = {C67D0B40-329E-4C59-A366-D5907D1CC356}
+		{291235D5-3029-484B-B80C-AB106A5CA306} = {A66BCCE9-3AC8-4AFA-9E8A-705AEF4FE564}
+		{BF8C37BF-8DDD-4AE7-8424-9B15EED56CD8} = {A66BCCE9-3AC8-4AFA-9E8A-705AEF4FE564}
+		{2CF251A2-C554-4D1B-B65B-D9F95D53675B} = {A66BCCE9-3AC8-4AFA-9E8A-705AEF4FE564}
 	EndGlobalSection
 EndGlobal

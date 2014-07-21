@@ -1,0 +1,4 @@
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Interface\bin\Debug\LoveLift.ImagesInfo.Interface.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Interface\bin\Debug\LoveLift.ImagesInfo.Interface.pdb
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Interface\obj\Debug\LoveLift.ImagesInfo.Interface.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ImagesInfo.Interface\obj\Debug\LoveLift.ImagesInfo.Interface.pdb

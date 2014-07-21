@@ -1,14 +1,8 @@
 ﻿using System;
 
-
-public class ContentInfo
+public class Class1
 {
-    private string content;
-
-    public string Content
-    {
-        get;
-        set;
-    }
-
+	public Class1()
+	{
+	}
 }

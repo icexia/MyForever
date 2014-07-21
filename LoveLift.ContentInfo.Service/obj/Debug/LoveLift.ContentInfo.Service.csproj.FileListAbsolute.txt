@@ -1,0 +1,4 @@
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Service\bin\Debug\LoveLift.ContentInfo.Service.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Service\bin\Debug\LoveLift.ContentInfo.Service.pdb
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Service\obj\Debug\LoveLift.ContentInfo.Service.dll
+E:\GitHub\MyForever\MyForever\LoveLift.ContentInfo.Service\obj\Debug\LoveLift.ContentInfo.Service.pdb
